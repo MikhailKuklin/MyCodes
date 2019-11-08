@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script prints band gap value of non-magnetic structures calculated by CRYSTAL14 software
+#Script prints band gap value of non-magnetic structures calculated by CRYSTAL17 software
 echo -e "\e[32mBand gap (eV)\e[m"
 cat $1 | grep -E 'BAND GAP'  | tail -1 | paste - - | awk '{ print $3 }'
 echo
