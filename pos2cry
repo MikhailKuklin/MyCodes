@@ -1,8 +1,8 @@
 #!/bin/bash
-#Scipt is used for extracting structural information about 3D structures from USPEX code 9.4.4 version and creating input CRYSTAL14
+#Scipt is used for extracting structural information about 3D structures from USPEX code 9.4.4 version and creating input CRYSTAL17
 #Step 1: create a folder inside of "results" folder and copy there gatheredPOSCARS_order file
 #Step 2: run the script by "pos2cry [number of structure in the gatheredPOSCARS_order file structural information of which you want to extract] [next number]
-#Step 3: Scipt will show you the space group of the crystal structure and will create CRYSTAL14 input file with the modified coordinated in the format required for CRYSTAL14 calculations (str[number of the structure])
+#Step 3: Scipt will show you the space group of the crystal structure and will create CRYSTAL17 input file with the modified coordinated in the format required for CRYSTAL17 calculations (str[number of the structure])
 
 #Commands below will find, copy, and write to nf$1.d12 structural information of the required structure frmo gatheredPOSCARD_order file
 { echo -e "###"
