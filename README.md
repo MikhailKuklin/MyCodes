@@ -7,3 +7,7 @@ Scipt is used for extracting structural information of 3D structures from USPEX 
 Step 1: create a folder inside of "results" folder of USPEX and copy there gatheredPOSCARS_order file
 Step 2: run the script by "pos2cry [number of structure in the gatheredPOSCARS_order file structural information of which you want to extract] [next number]. For example, for structure #24: pos2cry 24 25 
 Step 3: script will show you the space group of the crystal structure and will create CRYSTAL17 input file with the modified coordinates in the format required for CRYSTAL17 calculations
+
+Scipt bandgap
+
+Script prints band gap value of non-magnetic structures calculated by CRYSTAL17 software
