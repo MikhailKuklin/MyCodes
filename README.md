@@ -14,5 +14,6 @@ Script prints band gap value of non-magnetic structures calculated by CRYSTAL17 
 
 Script pylmp_v2
 
-Script is used for creating data file for LAMPPS program by using ase interface if you have .xyz file(s). It also requires Python3. 
-Code is adapted to particular .xyz files and "charges" atom style (column of charge "0." is added to data file), so, one needs to modify script for their own goals i.e. "head" command removes unnecessary lines from .xyz files 
+Script is used for creating data files for LAMPPS program by using ase interface if you have .xyz file(s). It also requires Python3. 
+
+Code is adapted to particular .xyz files and "charge" atom_style (column of charge "0." is added to data file), so, one needs to modify script for its own goals i.e. "head" command removes unnecessary lines from .xyz files 
