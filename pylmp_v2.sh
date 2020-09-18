@@ -10,7 +10,7 @@ echo "from ase.io import read,write; atoms=read(\"new.xyz\"); atoms.center(vacuu
         write(\"new.lammps-data\", atoms, specorder=None)" | python3
 cp new.lammps-data tmp1
 
-#tmp solution
+# add masses of C, H, and O depending on the composition
 {
 if grep -q -w "C" tmp.xyz && grep -q -w "H" tmp.xyz && grep -q -w "O" tmp.xyz;
 then
