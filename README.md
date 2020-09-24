@@ -17,3 +17,19 @@ Script pylmp_v2
 Script is used for creating data files for LAMPPS program by using ase interface if you have .xyz file(s). It also requires Python3. 
 
 Code is adapted to particular .xyz files and "charge" atom_style (column of charge "0." is added to data file), so, one needs to modify script for its own goals i.e. "head" command removes unnecessary lines from .xyz files 
+
+Script addmasses.sh
+
+Script adds atomic masses to LAMPPS data file depending on the structure. Works only for C-H-O, but can be easily modified.
+
+Script addpot.sh
+
+Script adds correct line to LAMPPS input file for setting up ReaxFF calculation depending on the structure. Works only for C-H-O, but can be easily modified.
+
+Script addpotcar.sh
+
+Script adds pseudopotentials in correct order to POTCAR file, VASP. 
+
+Script seqnumb.sh
+
+Script renames all files in the folder to sequantial numbers.
