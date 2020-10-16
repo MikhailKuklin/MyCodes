@@ -6,7 +6,6 @@ from ase.io import read, write
 
 # open file with collected LAMPPS energies (kcal/mole)
 f = open("l14", "r")
-
 lines=f.readlines()
 
 for i in range(0,39): #specify range of files
