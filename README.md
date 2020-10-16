@@ -33,3 +33,7 @@ Script adds pseudopotentials in correct order to POTCAR file, VASP.
 Script seqnumb.sh
 
 Script renames all files in the folder to sequantial numbers.
+
+Script pypos.py
+
+Python script to create poscars files in a loop including dE as E(VASP)-E(isolated atoms)-E(LAMPPS). More detaila in the script
