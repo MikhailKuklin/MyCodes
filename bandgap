@@ -1,5 +1,0 @@
-#!/bin/bash
-
-echo -e "\e[32mBand gap (eV)\e[m"
-cat $1 | grep -E 'BAND GAP'  | tail -1 | paste - - | awk '{ print $3 }'
-echo
