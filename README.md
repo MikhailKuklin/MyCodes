@@ -1,5 +1,5 @@
 # MyCodes
-This folder contains simple bash scripts for processing output data from CRYSTAL software for solid state chemistry and physics
+This folder contains simple bash scripts for processing output data from software for solid state chemistry and physics, ML, and HPC clusters in general
 
 Script pos2cry
 
