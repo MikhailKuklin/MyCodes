@@ -1,6 +1,8 @@
 # MyCodes
 This folder contains simple bash scripts for processing output data from software for solid state chemistry and physics, ML, and HPC clusters in general
 
+List below is probably outdated. Check scrips for more info.
+
 Script pos2cry
 
 Scipt is used for extracting structural information of 3D structures from USPEX code 9.4.4 version and creating input CRYSTAL17 files
