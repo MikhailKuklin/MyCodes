@@ -44,3 +44,4 @@ echo -e "\033[31mFolder\033[0m" "\033[31mT(K)\033[0m " "  \033[31mReg(eV)\033[0m
 echo "--------------------------------------------------------------------"
 paste list tbeg2 defsigma2 strnum rmse_qm9 rmse_qm9_pa | column -tc6
 echo ''
+rm defsigma* list* strnum
