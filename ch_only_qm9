@@ -1,5 +1,6 @@
 # extract structures without oxygen 
 from ase.io import read, write
+import numpy as np
 
 atoms=read('file.xyz', index=':')
 
