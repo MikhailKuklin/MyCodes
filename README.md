@@ -5,7 +5,7 @@ List below is probably outdated. Check scrips for more info.
 
 Last time updated: 28.04.2020
 
-**pos2cry.sh
+**pos2cry.sh**
 
 Scipt is used for extracting structural information of 3D structures from USPEX code 9.4.4 version and creating input CRYSTAL17 files
 Step 1: create a folder inside of "results" folder of USPEX and copy there gatheredPOSCARS_order file
