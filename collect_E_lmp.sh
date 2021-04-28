@@ -9,8 +9,6 @@ done
 # collect energies to one file
 cat $(ls energies_run_* | sort -n -t _ -k 3) > energies
 
-#nl tmp3 | awk '{print $2, $1, $3}' > energies
-
 # delete unnecesary files
 rm tmp* energies_run_*
   
