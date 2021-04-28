@@ -1,7 +1,7 @@
 # MyCodes
 This folder contains simple bash scripts for processing output data from software for solid state chemistry and physics, ML, and HPC clusters in general.
 
-List below is probably outdated. Check scrips for more info.
+List below is probably outdated. Check scripts for more info.
 
 Last time updated: 28.04.2020
 
