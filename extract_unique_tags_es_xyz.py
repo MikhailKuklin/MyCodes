@@ -11,7 +11,7 @@ tags = []
 
 for structure in file:
   if structure.info['config_type'] not in tags:
-    tags.append[structure.info['config_type'])
+    tags.append(structure.info['config_type'])
 
 # extract unique tags and energy sigma
 
