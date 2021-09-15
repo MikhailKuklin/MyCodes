@@ -17,6 +17,9 @@ for structure in file:
 
 dict={}
 
+for i in tags:
+  dict.setdefault(i, [])
+
 for key in tags:
   for structure in file:
     if structure.info['config_type'] == key and structure.info['energy_sigma'] not in dict.get(key):
