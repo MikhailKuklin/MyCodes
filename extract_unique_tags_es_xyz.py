@@ -15,6 +15,8 @@ for structure in file:
 
 # extract unique tags and energy sigma
 
+dict={}
+
 for key in tags:
   for structure in file:
     if structure.info['config_type'] == key and structure.info['energy_sigma'] not in dict.get(key):
